@@ -1,0 +1,17 @@
+﻿using UnityEngine.UI;
+
+
+    /// <summary>
+    /// Author  ${Author}
+    /// Date    ${CreateDate}
+    /// </summary>
+
+public class ${moduleName}Proxy : ${moduleName}  {
+
+#if UNITY_EDITOR
+    protected override void Reset()
+    {
+    }
+#endif
+
+}

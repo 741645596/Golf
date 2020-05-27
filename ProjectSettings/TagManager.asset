@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - soldier
+  - Water
+  - ChessItem
+  - Combo
+  - ChessBord
+  - GolfRing
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - HeroCamera
+  - ChessBoard
+  - Env
+  - Lightmap
+  - 
+  - SceneEnv
+  - TeamSetting
+  - Terrian
+  - 
+  - 
+  - 
+  - Ring
+  - GolfBallBag
+  - 
+  - 
+  - 
+  - 
+  - RTT
+  - 
+  - 
+  - 
+  - 
+  - Hide
+  m_SortingLayers:
+  - name: -1 BG
+    uniqueID: 841880605
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1 Book
+    uniqueID: 2436633231
+    locked: 0
+  - name: 2 Stone
+    uniqueID: 1545574827
+    locked: 0
+  - name: 3 Card
+    uniqueID: 84027171
+    locked: 0
+  - name: 4 UI
+    uniqueID: 3540196005
+    locked: 0

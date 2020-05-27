@@ -1,0 +1,8 @@
+Id,地质类型,地质名称,速度衰减斜率,速度衰减偏差,最小反弹速度,滚动摩擦力,旋球校正速度_1,旋球校正速度_2,旋球校正速度_3,旋球校正速度_4
+uint,int,int,int,int,int,int,int,int,int,int
+id,ground_type,name_tid,decrease_slope,decrease_bias,min_bounce_velocity,friction,spin_addition_1,spin_addition_2,spin_addition_3,spin_addition_4
+1,1,2,10,0,140,1,10,5,5,5
+2,2,2,10,0,140,2,10,5,5,5
+3,3,2,10,0,140,3,10,5,5,5
+4,4,2,10,0,140,1,10,5,5,5
+5,5,2,10,0,140,1,10,5,5,5

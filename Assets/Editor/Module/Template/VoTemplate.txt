@@ -1,0 +1,10 @@
+﻿using IGG.Core.Data.Config;
+
+    /// <summary>
+    /// Author  ${Author}
+    /// Date    ${CreateDate}
+    /// Desc    ${moduleName}模块动态数据集
+    /// </summary>
+namespace IGG.Core.Data.DataCenter.${moduleName} {
+    // 定义模块内的数据结构
+}

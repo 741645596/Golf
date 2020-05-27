@@ -1,0 +1,4 @@
+﻿ServerName = 智强服务器
+ServerId = 1
+ServerIp = 10.0.18.31
+ServerPort = 21010

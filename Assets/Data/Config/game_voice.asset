@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a0a2e1db149914a80a86bed7b64981, type: 3}
+  m_Name: game_voice
+  m_EditorClassIdentifier: 
+  Data:
+  - VoiceId: 1
+    VoiceName: ui_levelup
+    Volume: 100
+  - VoiceId: 2
+    VoiceName: battle_combo1
+    Volume: 100
+  - VoiceId: 3
+    VoiceName: battle_combo2
+    Volume: 100
+  - VoiceId: 4
+    VoiceName: battle_combo3
+    Volume: 100
+  - VoiceId: 5
+    VoiceName: battle_combo4
+    Volume: 100
+  - VoiceId: 6
+    VoiceName: battle_combo5
+    Volume: 100
+  - VoiceId: 7
+    VoiceName: battle_combo6
+    Volume: 100
+  - VoiceId: 8
+    VoiceName: battle_combo7
+    Volume: 100
+  - VoiceId: 9
+    VoiceName: battle_combo8
+    Volume: 100
+  - VoiceId: 10
+    VoiceName: battle_combo9
+    Volume: 100
+  - VoiceId: 11
+    VoiceName: battle_death_hero
+    Volume: 100
+  - VoiceId: 12
+    VoiceName: battle_mana_full
+    Volume: 100
+  - VoiceId: 13
+    VoiceName: battle_match4_trigger
+    Volume: 100
+  - VoiceId: 14
+    VoiceName: battle_match5_trigger
+    Volume: 100
+  - VoiceId: 15
+    VoiceName: battle_operation_error
+    Volume: 100
+  - VoiceId: 16
+    VoiceName: ui_click
+    Volume: 100
+  - VoiceId: 17
+    VoiceName: battle_match4_appear
+    Volume: 100
+  - VoiceId: 18
+    VoiceName: battle_match5_appear
+    Volume: 100
+  - VoiceId: 19
+    VoiceName: battle_gem_fly_1
+    Volume: 100
+  - VoiceId: 20
+    VoiceName: battle_gem_hit_1
+    Volume: 100
+  - VoiceId: 21
+    VoiceName: battle_gem_fly_2
+    Volume: 100
+  - VoiceId: 22
+    VoiceName: battle_gem_hit_2
+    Volume: 100
+  - VoiceId: 23
+    VoiceName: battle_gem_fly_3
+    Volume: 100
+  - VoiceId: 24
+    VoiceName: battle_gem_hit_3
+    Volume: 100
+  - VoiceId: 25
+    VoiceName: battle_gem_fly_4
+    Volume: 100
+  - VoiceId: 26
+    VoiceName: battle_gem_hit_4
+    Volume: 100
+  - VoiceId: 27
+    VoiceName: battle_gem_fly_5
+    Volume: 100
+  - VoiceId: 28
+    VoiceName: battle_gem_hit_5
+    Volume: 100
+  - VoiceId: 29
+    VoiceName: advanture_se_1
+    Volume: 100
+  - VoiceId: 30
+    VoiceName: advanture_se_2
+    Volume: 100
+  - VoiceId: 31
+    VoiceName: advanture_se_3
+    Volume: 100
+  - VoiceId: 32
+    VoiceName: advanture_se_4
+    Volume: 100
+  - VoiceId: 33
+    VoiceName: advanture_se_5
+    Volume: 100
+  - VoiceId: 34
+    VoiceName: advanture_se_6
+    Volume: 100
+  - VoiceId: 35
+    VoiceName: advanture_se_7
+    Volume: 100
+  - VoiceId: 36
+    VoiceName: advanture_se_8
+    Volume: 100
+  - VoiceId: 37
+    VoiceName: advanture_1
+    Volume: 100
+  - VoiceId: 38
+    VoiceName: advanture_2
+    Volume: 100
+  - VoiceId: 39
+    VoiceName: advanture_3
+    Volume: 100
+  - VoiceId: 40
+    VoiceName: battle_skill_1
+    Volume: 100
+  - VoiceId: 41
+    VoiceName: battle_skill_2
+    Volume: 100
+  - VoiceId: 42
+    VoiceName: battle_skill_3
+    Volume: 100
+  - VoiceId: 43
+    VoiceName: battle_skill_4
+    Volume: 100
+  - VoiceId: 44
+    VoiceName: battle_skill_5
+    Volume: 100
+  - VoiceId: 45
+    VoiceName: battle_skill_6
+    Volume: 100
+  - VoiceId: 46
+    VoiceName: battle_skill_7
+    Volume: 100
+  - VoiceId: 47
+    VoiceName: battle_skill_8
+    Volume: 100
+  - VoiceId: 48
+    VoiceName: battle_skill_9
+    Volume: 100
+  - VoiceId: 49
+    VoiceName: voice_skill_1
+    Volume: 100
+  - VoiceId: 50
+    VoiceName: voice_skill_2
+    Volume: 100
+  - VoiceId: 51
+    VoiceName: voice_skill_3
+    Volume: 100
+  - VoiceId: 52
+    VoiceName: voice_skill_4
+    Volume: 100
+  - VoiceId: 53
+    VoiceName: voice_skill_5
+    Volume: 100
+  - VoiceId: 54
+    VoiceName: battle_monster_gethit_1
+    Volume: 100
+  - VoiceId: 55
+    VoiceName: battle_monster_dead_1
+    Volume: 100
+  - VoiceId: 56
+    VoiceName: battle_monster_attack_1
+    Volume: 100
+  - VoiceId: 57
+    VoiceName: battle_wave
+    Volume: 100
+  - VoiceId: 58
+    VoiceName: battle_drop
+    Volume: 100
+  - VoiceId: 59
+    VoiceName: battle_monster_dead_2
+    Volume: 100
+  - VoiceId: 60
+    VoiceName: battle_monster_attack_2
+    Volume: 100
+  - VoiceId: 61
+    VoiceName: ui_book
+    Volume: 100
+  - VoiceId: 1010000
+    VoiceName: voice_dialogue_1010000
+    Volume: 100
+  - VoiceId: 1010001
+    VoiceName: voice_dialogue_1010001
+    Volume: 100
+  - VoiceId: 1010002
+    VoiceName: voice_dialogue_1010002
+    Volume: 100
+  - VoiceId: 1010003
+    VoiceName: voice_dialogue_1010003
+    Volume: 100
+  - VoiceId: 1010004
+    VoiceName: voice_dialogue_1010004
+    Volume: 100
+  - VoiceId: 1010005
+    VoiceName: voice_dialogue_1010005
+    Volume: 100
+  - VoiceId: 1010006
+    VoiceName: voice_dialogue_1010006
+    Volume: 100
+  - VoiceId: 1010007
+    VoiceName: voice_dialogue_1010007
+    Volume: 100
+  - VoiceId: 1010008
+    VoiceName: voice_dialogue_1010008
+    Volume: 100
+  - VoiceId: 1010010
+    VoiceName: voice_dialogue_1010010
+    Volume: 100
+  - VoiceId: 1010011
+    VoiceName: voice_dialogue_1010011
+    Volume: 100
+  - VoiceId: 1010013
+    VoiceName: voice_dialogue_1010013
+    Volume: 100
+  - VoiceId: 1010014
+    VoiceName: voice_dialogue_1010014
+    Volume: 100
+  - VoiceId: 1010015
+    VoiceName: voice_dialogue_1010015
+    Volume: 100

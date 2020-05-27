@@ -1,0 +1,3660 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68227e56e7754c46b0842291526f219, type: 3}
+  m_Name: scene_dialogue
+  m_EditorClassIdentifier: 
+  Data:
+  - DialogueId: 1010000
+    NextDialogueId: 1010002
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1010000
+    DialogueVoice: 1010000
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 70
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010002
+    NextDialogueId: 1010003
+    Direction: 1
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010002
+    DialogueVoice: 1010002
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: 300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 48
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010003
+    NextDialogueId: 1010004
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1010003
+    DialogueVoice: 1010003
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 62
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010004
+    NextDialogueId: 1010005
+    Direction: 1
+    NpcFlag: 5
+    NameTid: tid_HeroName_14002
+    DialogueTid: tid_dialogue_1010004
+    DialogueVoice: 1010004
+    DialogueFrame: 0
+    Image: icon_5_4
+    ImagePosX: 150
+    ImagePosY: 150
+    TalkAnim: 5
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 64
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010005
+    NextDialogueId: 1010007
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010005
+    DialogueVoice: 1010005
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 48
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010007
+    NextDialogueId: 1010008
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010007
+    DialogueVoice: 1010007
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 48
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010008
+    NextDialogueId: 1010009
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010008
+    DialogueVoice: 1010008
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 62
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010009
+    NextDialogueId: 1010011
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010009
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 19
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010011
+    NextDialogueId: 1010012
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010011
+    DialogueVoice: 1010011
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 43
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010012
+    NextDialogueId: 1010013
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010012
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 20
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010013
+    NextDialogueId: 1010014
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010013
+    DialogueVoice: 1010013
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 61
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010014
+    NextDialogueId: 1010015
+    Direction: 1
+    NpcFlag: 4
+    NameTid: tid_HeroName_14003
+    DialogueTid: tid_dialogue_1010014
+    DialogueVoice: 1010014
+    DialogueFrame: 0
+    Image: icon_4_4
+    ImagePosX: 300
+    ImagePosY: 300
+    TalkAnim: 4
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 63
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010015
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010015
+    DialogueVoice: 1010015
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 46
+    SkipSummary: tid_skip_1010000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010100
+    NextDialogueId: 1010101
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010100
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010101
+    NextDialogueId: 1010102
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010101
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 33
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010102
+    NextDialogueId: 1010103
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010102
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 30
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010103
+    NextDialogueId: 1010104
+    Direction: 1
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010103
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: 450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 20
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010104
+    NextDialogueId: 1010105
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010104
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 33
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010105
+    NextDialogueId: 1010106
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010105
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 20
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010106
+    NextDialogueId: 1010107
+    Direction: 1
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010106
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: 450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 18
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010107
+    NextDialogueId: 1010108
+    Direction: 1
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010107
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 36
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010108
+    NextDialogueId: 1010109
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010108
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010109
+    NextDialogueId: 1010110
+    Direction: 1
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010109
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: 450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 19
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010110
+    NextDialogueId: 1010111
+    Direction: 1
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010110
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 31
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010111
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 6
+    NameTid: tid_NpcName_role7
+    DialogueTid: tid_dialogue_1010111
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_11_4
+    ImagePosX: -200
+    ImagePosY: 300
+    TalkAnim: 6
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 1
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 21
+    SkipSummary: tid_skip_1010100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010200
+    NextDialogueId: 1010201
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010200
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 26
+    SkipSummary: tid_skip_1010200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010201
+    NextDialogueId: 1010202
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1010201
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 26
+    SkipSummary: tid_skip_1010200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010202
+    NextDialogueId: 1010203
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010202
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 21
+    SkipSummary: tid_skip_1010200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010203
+    NextDialogueId: 1010204
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010203
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 36
+    SkipSummary: tid_skip_1010200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010204
+    NextDialogueId: 0
+    Direction: 1
+    NpcFlag: 5
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010204
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_5_4
+    ImagePosX: 150
+    ImagePosY: 150
+    TalkAnim: 5
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 1
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 27
+    SkipSummary: tid_skip_1010200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010300
+    NextDialogueId: 1010301
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010300
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 40
+    SkipSummary: tid_skip_1010300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010301
+    NextDialogueId: 1010302
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role9
+    DialogueTid: tid_dialogue_1010301
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 24
+    SkipSummary: tid_skip_1010300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010302
+    NextDialogueId: 1010303
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010302
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 17
+    SkipSummary: tid_skip_1010300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010303
+    NextDialogueId: 1010304
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role9
+    DialogueTid: tid_dialogue_1010303
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 33
+    SkipSummary: tid_skip_1010300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010304
+    NextDialogueId: 1010305
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role9
+    DialogueTid: tid_dialogue_1010304
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 34
+    SkipSummary: tid_skip_1010300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010305
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1010305
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 1
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 35
+    SkipSummary: tid_skip_1010300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010310
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role9
+    DialogueTid: tid_dialogue_1010310
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 24
+    SkipSummary: tid_skip_1010300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010400
+    NextDialogueId: 1010401
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010400
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 30
+    SkipSummary: tid_skip_1010400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010401
+    NextDialogueId: 1010402
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1010401
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 31
+    SkipSummary: tid_skip_1010400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010402
+    NextDialogueId: 1010403
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role4
+    DialogueTid: tid_dialogue_1010402
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 39
+    SkipSummary: tid_skip_1010400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010403
+    NextDialogueId: 1010404
+    Direction: 1
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010403
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: 300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 33
+    SkipSummary: tid_skip_1010400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010404
+    NextDialogueId: 1010405
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010404
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 24
+    SkipSummary: tid_skip_1010400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010405
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role4
+    DialogueTid: tid_dialogue_1010405
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 23
+    SkipSummary: tid_skip_1010400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010500
+    NextDialogueId: 1010501
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role4
+    DialogueTid: tid_dialogue_1010500
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 28
+    SkipSummary: tid_skip_1010500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010501
+    NextDialogueId: 1010502
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role5
+    DialogueTid: tid_dialogue_1010501
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 36
+    SkipSummary: tid_skip_1010500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010502
+    NextDialogueId: 1010503
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010502
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 27
+    SkipSummary: tid_skip_1010500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010503
+    NextDialogueId: 1010504
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role5
+    DialogueTid: tid_dialogue_1010503
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 39
+    SkipSummary: tid_skip_1010500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010504
+    NextDialogueId: 1010505
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role5
+    DialogueTid: tid_dialogue_1010504
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 35
+    SkipSummary: tid_skip_1010500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010505
+    NextDialogueId: 1010506
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role5
+    DialogueTid: tid_dialogue_1010505
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 30
+    SkipSummary: tid_skip_1010500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010506
+    NextDialogueId: 1010507
+    Direction: 1
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010506
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: 300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1010500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010507
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010507
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 23
+    SkipSummary: tid_skip_1010500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010600
+    NextDialogueId: 1010601
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010600
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 22
+    SkipSummary: tid_skip_1010600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010601
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role4
+    DialogueTid: tid_dialogue_1010601
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 30
+    SkipSummary: tid_skip_1010600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010700
+    NextDialogueId: 1010701
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role4
+    DialogueTid: tid_dialogue_1010700
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 29
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010701
+    NextDialogueId: 1010702
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010701
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 41
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010702
+    NextDialogueId: 1010703
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1010702
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 21
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010703
+    NextDialogueId: 1010704
+    Direction: 1
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010703
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: 300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 32
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010704
+    NextDialogueId: 1010705
+    Direction: 1
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010704
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: 300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 20
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010705
+    NextDialogueId: 1010706
+    Direction: 1
+    NpcFlag: 0
+    NameTid: tid_NpcName_role4
+    DialogueTid: tid_dialogue_1010705
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 17
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010706
+    NextDialogueId: 1010707
+    Direction: 1
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010706
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 40
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010707
+    NextDialogueId: 1010708
+    Direction: 1
+    NpcFlag: 7
+    NameTid: tid_NpcName_role6
+    DialogueTid: tid_dialogue_1010707
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_12_4
+    ImagePosX: 350
+    ImagePosY: 350
+    TalkAnim: 7
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 17
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010708
+    NextDialogueId: 1010709
+    Direction: 1
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010708
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: 300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010709
+    NextDialogueId: 1010710
+    Direction: 1
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010709
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 28
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010710
+    NextDialogueId: 1010711
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1010710
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 23
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010711
+    NextDialogueId: 0
+    Direction: 1
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010711
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: 300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 32
+    SkipSummary: tid_skip_1010700
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010800
+    NextDialogueId: 1010801
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010800
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 35
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010801
+    NextDialogueId: 1010802
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010801
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 20
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010802
+    NextDialogueId: 1010803
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010802
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 35
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010803
+    NextDialogueId: 1010804
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010803
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 41
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010804
+    NextDialogueId: 1010805
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010804
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 19
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010805
+    NextDialogueId: 1010806
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010805
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 19
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010806
+    NextDialogueId: 1010807
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010806
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 44
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010807
+    NextDialogueId: 1010808
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1010807
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 43
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010808
+    NextDialogueId: 1010809
+    Direction: 0
+    NpcFlag: 7
+    NameTid: tid_NpcName_role6
+    DialogueTid: tid_dialogue_1010808
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_12_4
+    ImagePosX: -350
+    ImagePosY: 350
+    TalkAnim: 7
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 23
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010809
+    NextDialogueId: 1010810
+    Direction: 1
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1010809
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: 500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 38
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010810
+    NextDialogueId: 1010811
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1010810
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 26
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010811
+    NextDialogueId: 1010812
+    Direction: 1
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1010811
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: 300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 19
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1010812
+    NextDialogueId: 0
+    Direction: 1
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1010812
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 21
+    SkipSummary: tid_skip_1010800
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020000
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role5
+    DialogueTid: tid_dialogue_1020000
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 33
+    SkipSummary: tid_skip_1020000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020010
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role5
+    DialogueTid: tid_dialogue_1020010
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 38
+    SkipSummary: tid_skip_1020000
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020100
+    NextDialogueId: 1020101
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role10
+    DialogueTid: tid_dialogue_1020100
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 36
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020101
+    NextDialogueId: 1020102
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1020101
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 32
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020102
+    NextDialogueId: 1020103
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1020102
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 1
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 38
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020103
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1020103
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020110
+    NextDialogueId: 1020111
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1020110
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 29
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020111
+    NextDialogueId: 1020112
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role10
+    DialogueTid: tid_dialogue_1020111
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 38
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020112
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role10
+    DialogueTid: tid_dialogue_1020112
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 48
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020120
+    NextDialogueId: 1020121
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role10
+    DialogueTid: tid_dialogue_1020120
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 48
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020121
+    NextDialogueId: 1020122
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role10
+    DialogueTid: tid_dialogue_1020121
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 34
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020122
+    NextDialogueId: 1020123
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1020122
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 35
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020123
+    NextDialogueId: 1020124
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1020123
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 31
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020124
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1020124
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 1
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1020100
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020200
+    NextDialogueId: 1020201
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role14
+    DialogueTid: tid_dialogue_1020200
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020201
+    NextDialogueId: 1020202
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role15
+    DialogueTid: tid_dialogue_1020201
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 38
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020202
+    NextDialogueId: 1020203
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role14
+    DialogueTid: tid_dialogue_1020202
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 36
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020203
+    NextDialogueId: 1020204
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role15
+    DialogueTid: tid_dialogue_1020203
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 38
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020204
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role14
+    DialogueTid: tid_dialogue_1020204
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 33
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020210
+    NextDialogueId: 1020211
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role14
+    DialogueTid: tid_dialogue_1020210
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 22
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020211
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role15
+    DialogueTid: tid_dialogue_1020211
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020220
+    NextDialogueId: 1020221
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role14
+    DialogueTid: tid_dialogue_1020220
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 21
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020221
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role15
+    DialogueTid: tid_dialogue_1020221
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 21
+    SkipSummary: tid_skip_1020200
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020300
+    NextDialogueId: 1020301
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role13
+    DialogueTid: tid_dialogue_1020300
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 37
+    SkipSummary: tid_skip_1020300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020301
+    NextDialogueId: 1020302
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1020301
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 28
+    SkipSummary: tid_skip_1020300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020302
+    NextDialogueId: 1020303
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role13
+    DialogueTid: tid_dialogue_1020302
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 34
+    SkipSummary: tid_skip_1020300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020303
+    NextDialogueId: 1020304
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role13
+    DialogueTid: tid_dialogue_1020303
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 34
+    SkipSummary: tid_skip_1020300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020304
+    NextDialogueId: 1020305
+    Direction: 0
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1020304
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: -500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 31
+    SkipSummary: tid_skip_1020300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020305
+    NextDialogueId: 1020306
+    Direction: 1
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1020305
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: 450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 27
+    SkipSummary: tid_skip_1020300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020306
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 2
+    NameTid: tid_HeroName_14005
+    DialogueTid: tid_dialogue_1020306
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_2_4
+    ImagePosX: -300
+    ImagePosY: 200
+    TalkAnim: 2
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 1
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 38
+    SkipSummary: tid_skip_1020300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020310
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role13
+    DialogueTid: tid_dialogue_1020310
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 26
+    SkipSummary: tid_skip_1020300
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020400
+    NextDialogueId: 1020401
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role16
+    DialogueTid: tid_dialogue_1020400
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 35
+    SkipSummary: tid_skip_1020400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020401
+    NextDialogueId: 1020402
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role16
+    DialogueTid: tid_dialogue_1020401
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 28
+    SkipSummary: tid_skip_1020400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020402
+    NextDialogueId: 1020403
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role17
+    DialogueTid: tid_dialogue_1020402
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 22
+    SkipSummary: tid_skip_1020400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020403
+    NextDialogueId: 1020404
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role18
+    DialogueTid: tid_dialogue_1020403
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 23
+    SkipSummary: tid_skip_1020400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020404
+    NextDialogueId: 1020405
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role19
+    DialogueTid: tid_dialogue_1020404
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1020400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020405
+    NextDialogueId: 1020406
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role16
+    DialogueTid: tid_dialogue_1020405
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 28
+    SkipSummary: tid_skip_1020400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020406
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1020406
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 109
+    SkipSummary: tid_skip_1020400
+    OptionTid1: tid_dialogue_1020410
+    OptionDialogue1: 1020411
+    OptionTid2: tid_dialogue_1020420
+    OptionDialogue2: 1020421
+    OptionTid3: tid_dialogue_1020430
+    OptionDialogue3: 1020411
+    DialogueMusic: 0
+  - DialogueId: 1020411
+    NextDialogueId: 1020406
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role16
+    DialogueTid: tid_dialogue_1020411
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 23
+    SkipSummary: tid_skip_1020400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020421
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role16
+    DialogueTid: tid_dialogue_1020421
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 21
+    SkipSummary: tid_skip_1020400
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020500
+    NextDialogueId: 1020501
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role12
+    DialogueTid: tid_dialogue_1020500
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 32
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020501
+    NextDialogueId: 1020502
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1020501
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 21
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020502
+    NextDialogueId: 1020503
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role12
+    DialogueTid: tid_dialogue_1020502
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 32
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020503
+    NextDialogueId: 1020504
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role12
+    DialogueTid: tid_dialogue_1020503
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 33
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020504
+    NextDialogueId: 1020505
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1020504
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 30
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020505
+    NextDialogueId: 1020506
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role12
+    DialogueTid: tid_dialogue_1020505
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 38
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020506
+    NextDialogueId: 1020507
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1020506
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 16
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020507
+    NextDialogueId: 1020511
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role12
+    DialogueTid: tid_dialogue_1020507
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 37
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020511
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role1
+    DialogueTid: tid_dialogue_1020511
+    DialogueVoice: 0
+    DialogueFrame: 1
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 23
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020513
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role12
+    DialogueTid: tid_dialogue_1020513
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 25
+    SkipSummary: tid_skip_1020500
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020600
+    NextDialogueId: 1020601
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role11
+    DialogueTid: tid_dialogue_1020600
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 33
+    SkipSummary: tid_skip_1020600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020601
+    NextDialogueId: 1020602
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role11
+    DialogueTid: tid_dialogue_1020601
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 36
+    SkipSummary: tid_skip_1020600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020602
+    NextDialogueId: 1020603
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role11
+    DialogueTid: tid_dialogue_1020602
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 28
+    SkipSummary: tid_skip_1020600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020603
+    NextDialogueId: 1020604
+    Direction: 0
+    NpcFlag: 3
+    NameTid: tid_HeroName_14001
+    DialogueTid: tid_dialogue_1020603
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_3_4
+    ImagePosX: -450
+    ImagePosY: 250
+    TalkAnim: 3
+    Emotion: 0
+    ImageEnter: 1
+    ImageExit: 2
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 18
+    SkipSummary: tid_skip_1020600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020604
+    NextDialogueId: 1020605
+    Direction: 0
+    NpcFlag: 0
+    NameTid: 
+    DialogueTid: tid_dialogue_1020604
+    DialogueVoice: 0
+    DialogueFrame: 2
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 0
+    DialogueExit: 0
+    DialogueSpeed: 20
+    DialogueTime: 24
+    SkipSummary: tid_skip_1020600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020605
+    NextDialogueId: 0
+    Direction: 1
+    NpcFlag: 1
+    NameTid: tid_HeroName_14004
+    DialogueTid: tid_dialogue_1020605
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: icon_1_4
+    ImagePosX: 500
+    ImagePosY: 0
+    TalkAnim: 1
+    Emotion: 0
+    ImageEnter: 2
+    ImageExit: 1
+    DialogueEnter: 0
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 24
+    SkipSummary: tid_skip_1020600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0
+  - DialogueId: 1020620
+    NextDialogueId: 0
+    Direction: 0
+    NpcFlag: 0
+    NameTid: tid_NpcName_role11
+    DialogueTid: tid_dialogue_1020620
+    DialogueVoice: 0
+    DialogueFrame: 0
+    Image: 
+    ImagePosX: 0
+    ImagePosY: 0
+    TalkAnim: 0
+    Emotion: 0
+    ImageEnter: 0
+    ImageExit: 0
+    DialogueEnter: 1
+    DialogueExit: 1
+    DialogueSpeed: 20
+    DialogueTime: 26
+    SkipSummary: tid_skip_1020600
+    OptionTid1: 
+    OptionDialogue1: 0
+    OptionTid2: 
+    OptionDialogue2: 0
+    OptionTid3: 
+    OptionDialogue3: 0
+    DialogueMusic: 0

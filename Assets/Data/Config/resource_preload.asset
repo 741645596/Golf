@@ -1,0 +1,470 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8f037e4e74b4a048864234761826a0d, type: 3}
+  m_Name: resource_preload
+  m_EditorClassIdentifier: 
+  Data:
+  - Id: 100
+    FilePath: Stone
+    PrefabName: ChessItem
+    Remarks: "\u73E0\u5B50"
+    PreloadCounts: 35
+  - Id: 100
+    FilePath: Stone
+    PrefabName: lightingLine
+    Remarks: "\u95EA\u7535"
+    PreloadCounts: 35
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_anqiu_fly
+    Remarks: "\u73E0\u5B50\u5F39\u9053"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_anqiu_hit
+    Remarks: "\u73E0\u5B50\u53D7\u51FB"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_bingzhui_fly
+    Remarks: "\u73E0\u5B50\u5F39\u9053"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_bingzhui_hit
+    Remarks: "\u73E0\u5B50\u53D7\u51FB"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_countdown_creature
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_creature_riko_attak1
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_dianqiu_fly
+    Remarks: "\u73E0\u5B50\u5F39\u9053"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_dianqiu_hit
+    Remarks: "\u73E0\u5B50\u53D7\u51FB"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_ground_anxi
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_ground_muxi
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_ground_shandian
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_guaiwuxuanzhong
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_huoqiu_fly
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_huoqiu_hit
+    Remarks: "\u73E0\u5B50\u53D7\u51FB"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_hurt_shandian
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_jiemianxuanzhong
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_monster_Midfrog_attack
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_monster_smallfrog_attack
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_monster_smallfrog_hit
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_muci_fly
+    Remarks: "\u73E0\u5B50\u5F39\u9053"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_muci_hit
+    Remarks: "\u73E0\u5B50\u53D7\u51FB"
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_nuqi_full
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_nuqi_full_creature
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_passive_shield
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_select_creature
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shanguang
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shanguangda
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shanguangxiao
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shuxing_an
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shuxing_bing
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shuxing_dian
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shuxing_huo
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shuxing_mu
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_skill_dantizhiliao
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_skill_dianran
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_skill_gedang
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_skill_huanse
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_skill_huolongjuan
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_skill_jianrenfengbao
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_skill_zhuanhuantexiao
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_UI_caidai_glow
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_UI_caidai_glow2
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_an
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_bing
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_dian
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_huo
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_mu
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochushizi_an
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochushizi_bing
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochushizi_dian
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochushizi_huo
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochushizi_mu
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_battle_treasurebox
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_UI_dropEffect
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_monster_bigA_attack
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_monster_Midfrog_screenhit
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_countdown_creature
+    Remarks: 
+    PreloadCounts: 15
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_monster_bigA_skill_stone_hit
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_monster_bigA_skill_stone
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Creature
+    PrefabName: creature_frog
+    Remarks: 
+    PreloadCounts: 5
+  - Id: 100
+    FilePath: Creature
+    PrefabName: creature_littlefrog
+    Remarks: 
+    PreloadCounts: 5
+  - Id: 100
+    FilePath: Creature
+    PrefabName: creature_bigfrog
+    Remarks: 
+    PreloadCounts: 2
+  - Id: 100
+    FilePath: Creature
+    PrefabName: creature_bigfrog_ss
+    Remarks: 
+    PreloadCounts: 2
+  - Id: 100
+    FilePath: Creature
+    PrefabName: adventure_littlefrog
+    Remarks: 
+    PreloadCounts: 3
+  - Id: 100
+    FilePath: Creature
+    PrefabName: adventure_frog
+    Remarks: 
+    PreloadCounts: 3
+  - Id: 100
+    FilePath: Creature
+    PrefabName: adventure_bigfrog_ss
+    Remarks: 
+    PreloadCounts: 2
+  - Id: 100
+    FilePath: Creature
+    PrefabName: adventure_bigfrog
+    Remarks: 
+    PreloadCounts: 1
+  - Id: 100
+    FilePath: Creature
+    PrefabName: npc_2105
+    Remarks: 
+    PreloadCounts: 3
+  - Id: 100
+    FilePath: Creature
+    PrefabName: npc_2103
+    Remarks: 
+    PreloadCounts: 3
+  - Id: 100
+    FilePath: Creature
+    PrefabName: npc_2101
+    Remarks: 
+    PreloadCounts: 4
+  - Id: 100
+    FilePath: Creature
+    PrefabName: npc_2104
+    Remarks: 
+    PreloadCounts: 1
+  - Id: 100
+    FilePath: Creature
+    PrefabName: npc_2102
+    Remarks: 
+    PreloadCounts: 1
+  - Id: 100
+    FilePath: Creature
+    PrefabName: box1
+    Remarks: 
+    PreloadCounts: 3
+  - Id: 100
+    FilePath: Creature
+    PrefabName: adventure_e_tishi
+    Remarks: 
+    PreloadCounts: 1
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_shanguangxiao
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_mu
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_muci_fly
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_muci_hit
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_dead_smoke_s
+    Remarks: 
+    PreloadCounts: 3
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_an
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_bing
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_dian
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_huo
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: xiaochu_mu
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_anqiu_fly
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_anqiu_hit
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_dead_smoke_M
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_monster_bigA_SS_attack
+    Remarks: 
+    PreloadCounts: 10
+  - Id: 100
+    FilePath: Effect
+    PrefabName: e_dead_smoke
+    Remarks: 
+    PreloadCounts: 10

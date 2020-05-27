@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86a3986b05976a54b8e94c2a72a68333, type: 3}
+  m_Name: groundmaterial
+  m_EditorClassIdentifier: 
+  Data:
+  - Id: 1
+    GroundType: 1
+    NameTid: 2
+    DecreaseSlope: 10
+    DecreaseBias: 0
+    MinBounceVelocity: 140
+    Friction: 1
+    SpinAddition1: 10
+    SpinAddition2: 5
+    SpinAddition3: 5
+    SpinAddition4: 5
+  - Id: 2
+    GroundType: 2
+    NameTid: 2
+    DecreaseSlope: 10
+    DecreaseBias: 0
+    MinBounceVelocity: 140
+    Friction: 2
+    SpinAddition1: 10
+    SpinAddition2: 5
+    SpinAddition3: 5
+    SpinAddition4: 5
+  - Id: 3
+    GroundType: 3
+    NameTid: 2
+    DecreaseSlope: 10
+    DecreaseBias: 0
+    MinBounceVelocity: 140
+    Friction: 3
+    SpinAddition1: 10
+    SpinAddition2: 5
+    SpinAddition3: 5
+    SpinAddition4: 5
+  - Id: 4
+    GroundType: 4
+    NameTid: 2
+    DecreaseSlope: 10
+    DecreaseBias: 0
+    MinBounceVelocity: 140
+    Friction: 1
+    SpinAddition1: 10
+    SpinAddition2: 5
+    SpinAddition3: 5
+    SpinAddition4: 5
+  - Id: 5
+    GroundType: 5
+    NameTid: 2
+    DecreaseSlope: 10
+    DecreaseBias: 0
+    MinBounceVelocity: 140
+    Friction: 1
+    SpinAddition1: 10
+    SpinAddition2: 5
+    SpinAddition3: 5
+    SpinAddition4: 5

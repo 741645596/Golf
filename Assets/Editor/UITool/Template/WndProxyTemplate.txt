@@ -1,0 +1,15 @@
+﻿using UnityEngine.UI;
+
+    /// <summary>
+    /// Author  ${Author}
+    /// Date    ${CreateDate}
+	/// Desc    ${moduleName}界面代理
+    /// </summary>
+public class ${moduleName}Proxy : ${moduleName} {
+
+#if UNITY_EDITOR
+    protected override void Reset()
+    {
+    }
+#endif
+}

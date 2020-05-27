@@ -1,0 +1,14 @@
+字段名,数据,备注
+string,string,string
+#name,value,remarks
+herolotterydraw_1,200,英雄商城抽取，1次
+herolotterydraw_10,200,英雄商城抽取，10次
+monster_drop_effect,e_battle_treasurebox,关卡内的普通小怪掉落时，播放的宝箱特效
+boss_drop_effect,e_battle_treasurebox,关卡内的boss掉落时，播放的宝箱特效
+drop_effect_delay,0,关卡内怪物掉落时，播放宝箱与界面资源增长特效的间隔时间，单位为毫秒
+resource_add_effect,null,界面中资源增长的特效播放
+default_team,14004*14002*14003*14001*14005,配置默认队伍信息
+music_fade_in_time,1500,音乐淡入时间
+music_fade_out_time,1000,音乐淡出时间
+music_switch_wait_time,500,音乐立即切换时间
+chessfly,1*0.9*0.8*0.7*0.6,配置弹道速度间隔

@@ -1,0 +1,62 @@
+﻿using System;
+using IGG.Core.Helper;
+
+namespace IGG.Core.Data.Config
+{
+    #region 配置定义
+    /// <summary>
+    /// Author  ${Author}
+    /// Date    ${CreateDate}
+    /// Desc    ${XmlName}配置文件映射类型
+    /// </summary>
+    [Serializable]
+    public partial class ${ConfigClsName} : IConfig<${KeyType}>
+    {
+${FieldList}
+        public ${KeyType} GetKey()
+        {
+            return ${KeyFieldName};
+        }
+    }
+    #endregion
+
+    #region 配置访问接口定义
+    /// <summary>
+    /// Author  ${Author}
+    /// Date    ${CreateDate}
+    /// Desc    ${XmlName}配置文件访问接口
+    /// </summary>
+    public partial class ${DaoClsName}:BaseDao<${DaoClsName},${KeyType},${ConfigClsName}>
+    {
+        public override string GetName()
+        {
+            return "${XmlName}";
+        }${languageCode}
+    }
+    #endregion
+
+    #region 配置解码器定义
+#if ServerClient || UNITY_EDITOR || USE_CSV_CONFIG
+
+    /// <summary>
+    /// Author  ${Author}
+    /// Date    ${CreateDate}
+    /// Desc    ${XmlName}配置文件解码器
+    /// </summary>
+    public partial class ${cfgDecClsName} : BaseCfgDecoder<${ConfigClsName}, ${CfgDataClsName}>
+    {
+        public override string GetName()
+        {
+            return "${XmlName}";
+        }
+
+        protected override void ProcessRow(${ConfigClsName} excel)
+        {
+${ReadValueCode}
+            ProcessRowExt(excel);
+        }
+    }
+
+#endif
+    #endregion
+}

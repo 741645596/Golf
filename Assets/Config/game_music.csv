@@ -1,0 +1,12 @@
+游戏音乐的id,游戏音乐的文件名称,音量
+uint,string,uint
+#music_id,music_name,volume
+1,bgm_starup,100
+2,bgm_chapter_list,100
+3,bgm_main,100
+4,bgm_battle_victory,100
+5,bgm_battle_failed,100
+6,bgm_battle_main,40
+7,bgm_advanture_1,60
+8,bgm_advanture_2,100
+9,bgm_advanture_3,100
